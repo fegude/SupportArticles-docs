@@ -18,13 +18,13 @@ _Original KB number:_ &nbsp; 2753702
 
 Several symptoms may be seen:
 
-- You've ran the CSS Authentication Diagnostic and it has notified you of secure channel problems.
-
 - When attempting to log onto a computer, you receive the message "no logon servers available to service the logon request." The attempted logon will not be successful.
 
 - When attempting to access a resource, such as a file or folder, across the network you receive a message "access denied" or "no logon servers available to service the logon request."
 
 - Netlogon source events in the System event log of IDs 5719, 5722 or 5723.
+
+- You've ran a CSS (Microsoft Customer Support Services) Diagnostic tool and it has notified you of secure channel problems.
 
 These symptoms may be intermittent or consistent. They may also be tied to a specific network location or locations. This condition is known as a "broken secure channel".
 
@@ -40,7 +40,9 @@ Many methods may be used to verify that connectivity is sufficient since there a
 
 PortQry.exe is a free download from Microsoft.
 
-[PortQry Command Line Port Scanner Version 2.0](https://www.microsoft.com/download/details.aspx?id=17148)
+Download: [PortQry Command Line Port Scanner Version 2.0](https://www.microsoft.com/en-us/download/details.aspx?id=17148)
+
+Usage: [Using the PortQry command-line tool](https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/portqry-command-line-port-scanner-v2)
 
 Once the network concern is identified look to local network interface, firewall software, or network infrastructure to resolve the issue.
 

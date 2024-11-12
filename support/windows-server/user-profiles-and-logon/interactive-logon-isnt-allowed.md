@@ -10,13 +10,13 @@ ms.custom: sap:User Logon and Profiles\Service Account and Interactive User Logo
 ---
 # Domain Controller doesn't allow interactive logon, shows an error: The security database on the server does not have a computer account for this workstation trust relationship
 
-This article provides a solution to an error that occurs when Domain Controller does not allow interactive logon.
+This article provides a solution to an error that occurs when Domain Controller (DC) does not allow interactive logon.
 
 _Original KB number:_ &nbsp; 2015518
 
 ## Symptoms
 
-After rebooting, a Windows Server 2012 R2 DC cannot be logged on to anymore. You see this with both a console logon or terminal services/remote desktop. The error shown is:
+After rebooting, a Windows Server DC cannot be logged on to anymore. You see this with both a console logon or terminal services/remote desktop. The error shown is:
 
 > The security database on the server does not have a computer account for this workstation trust relationship
 
